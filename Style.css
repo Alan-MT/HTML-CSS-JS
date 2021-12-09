@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    position: fixed;
+    background: #22242A;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+.sidebar{
+    background: #2F323A;
+    margin-top: 70px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+}
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+.sidebar a:hover{
+    background: #19B3D3;
+}
+.content{
+    margin-left: 250px;
+    background: url(https://envato-shoebox-0.imgix.net/393d/8e80-21bb-4019-a83d-b2214e35de22/308_1R3A9294.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=ae68ec00e696b27d608dbe93c43c47e9) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
